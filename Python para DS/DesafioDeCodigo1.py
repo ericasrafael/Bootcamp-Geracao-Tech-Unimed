@@ -18,7 +18,7 @@ diametro2 = int(entrada[2])
 # TODO: Calcule o ICM da comunicação dos Palatír de Sauron e Saruman,
 # com 2 casas decimais no espaço #em branco abaixo:
 
-# icm = round(distancia / (diametro1 + diametro2),2)  # desafio barrava dessa forma
+# icm = round(distancia / (diametro1 + diametro2),2)    # desafio barrava dessa forma
 
 icm = distancia / (diametro1 + diametro2)
 icm = f"{icm:.2f}"
@@ -30,12 +30,12 @@ print(icm)
 
 valores = input().split()
 
-quantidade = int(valores[0])
+quantidade_cachorros_quentes = int(valores[0])
 participantes = int(valores[1])
 
-# media = round(quantidade/participantes, 2)  # desafio barrava dessa forma
+# media = round(quantidade/participantes, 2)            # desafio barrava dessa forma
 
-media = quantidade/participantes
+media = quantidade_cachorros_quentes/participantes
 media = f'{media:.2f}'
 print(media)
 
@@ -48,12 +48,12 @@ print(media)
 
 valores = input().split()
 
-CARRO = 12  # km/L
-tempo_viagem = int(valores[0])  # h
-velocidade_media = int(valores[1])  # km/h
+CARRO = 12                                              # km/L
+tempo_viagem = int(valores[0])                          # h
+velocidade_media = int(valores[1])                      # km/h
 distancia_percorrida = tempo_viagem * velocidade_media  # km
 
-# litros = round(distancia_percorrida / CARRO,3)  # desafio barrava dessa forma
+# litros = round(distancia_percorrida / CARRO,3)        # desafio barrava dessa forma
 
 litros = distancia_percorrida / CARRO
 litros = f'{litros:.3f}'
