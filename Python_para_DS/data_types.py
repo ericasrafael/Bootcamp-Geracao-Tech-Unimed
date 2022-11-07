@@ -31,10 +31,6 @@ print(carros)
 # TUPLAS EM PYTHON
 
 
-
-
-
-
 # %%
 # CONJUNTOS EM PYTHON
 
@@ -98,6 +94,5 @@ s.discard(25)  # não ocorre erro se não conter elemento
 # DICIONÁRIOS EM PYTHON
 
 
-
-
-
+# %%
+# FUNÇÕES
